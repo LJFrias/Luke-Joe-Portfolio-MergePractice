@@ -1,0 +1,32 @@
+
+#contact-button:hover {
+    transition: 3s;
+    transform: scale(2);
+    translate: 200px 0;
+    }
+
+#contact-button:active{
+    animation-name: contact; 
+    animation-duration: 1s;
+    font-size: 50px;
+}
+
+@keyframes contact {
+   100% {font-size: 50px}
+}
+
+#portfolio-button:hover {
+    transition: 3s;
+    transform: scale(2);
+    translate: -200px 0;
+}
+
+#portfolio-button:active{
+    animation-name: portfolio; 
+    animation-duration: 1s;
+    font-size: 50px;
+}
+
+@keyframes portfoli {
+   100% {font-size: 50px}
+}
