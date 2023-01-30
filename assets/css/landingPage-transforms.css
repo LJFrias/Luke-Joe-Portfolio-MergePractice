@@ -1,4 +1,29 @@
 
+
+
+
+#about-button:hover, #portfolio-button:hover {
+        transform: scale(2);
+
+}
+
+#about-button:active, #portfolio-button:active {
+    font-size: 20px;
+    animation-duration: 2s;
+}
+
+/* #about-button:active, #portfolio-button:active {
+    font-size: 3em;
+} */
+
+/* #portfolio-button:hover {
+    transform: scale(2);
+} */
+
+/* #portfolio-button:active {
+    font-size: 3em;
+} */
+
 #contact-button:hover {
     transition: 3s;
     transform: scale(2);
@@ -15,18 +40,3 @@
    100% {font-size: 50px}
 }
 
-#portfolio-button:hover {
-    transition: 3s;
-    transform: scale(2);
-    translate: -200px 0;
-}
-
-#portfolio-button:active{
-    animation-name: portfolio; 
-    animation-duration: 1s;
-    font-size: 50px;
-}
-
-@keyframes portfoli {
-   100% {font-size: 50px}
-}
