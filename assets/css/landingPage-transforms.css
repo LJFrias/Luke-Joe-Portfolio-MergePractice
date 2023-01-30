@@ -1,6 +1,7 @@
 
 
 
+
 #about-button:hover, #portfolio-button:hover {
         transform: scale(2);
 
@@ -22,3 +23,20 @@
 /* #portfolio-button:active {
     font-size: 3em;
 } */
+
+#contact-button:hover {
+    transition: 3s;
+    transform: scale(2);
+    translate: 200px 0;
+    }
+
+#contact-button:active{
+    animation-name: contact; 
+    animation-duration: 1s;
+    font-size: 50px;
+}
+
+@keyframes contact {
+   100% {font-size: 50px}
+}
+
